@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    border-bottom: 2px solid black;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.section__main {
+    height: 90vh;
+    padding: 100px 0;
+}
+
+.section__main-title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section__main-text {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.section__main-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.footer {
+    border-top: 2px solid black;
+}
+
+.copywrite {
+    text-align: center;
+}
